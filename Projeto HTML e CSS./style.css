@@ -74,4 +74,21 @@ h1{
     border: 2px solid transparent;
     font-weight: bold;
     transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: rgb(51, 151, 51);
+    border-color: green;
+}
+
+
+
+.card-discripition{
+padding: 20px 10px;
+}
+
+.button{
+    border: green;
 }
