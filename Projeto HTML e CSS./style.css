@@ -3,3 +3,67 @@
     margin: 0;
     font-family: Helvetica;
 }
+header,p{
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(51, 151, 51);
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid rgb(51, 151, 51);
+}
+
+.card-image{
+    height: 200px;
+    background-size: cover;
+}
+
+
+.card-1 .card-image{
+    background-image:url("/img/cachorro.jpeg");
+}
+.card-2 .card-image{
+    background-image:url("/img/crocodile.jpeg");
+}
+.card-3 .card-image{
+    background-image:url("/img/gatinho.jpeg");
+}
+.card-4 .card-image{
+    background-image:url("/img/macaco.jpeg");
+}
+.card-5 .card-image{
+    background-image:url("/img/palmeiras.jpeg");
+}
+.card-6 .card-image{
+    background-image:url("/img/palmeiras2.jpeg");
+}
+.card-7 .card-image{
+    background-image:url("/img/panda.jpeg");
+}
+.card-8 .card-image{
+    background-image:url("/img/Sem\ título.jpeg");
+}
+
+.btn{
+    display: block;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+}
