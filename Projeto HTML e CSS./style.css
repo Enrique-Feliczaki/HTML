@@ -12,6 +12,13 @@ h1{
     margin-bottom: 20px;
     color: rgb(51, 151, 51);
 }
+.bloco-central{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 16rem;
+}
 
 .conteiner{
     max-width: 1200px;
@@ -32,28 +39,29 @@ h1{
 
 
 .card-1 .card-image{
-    background-image:url("/img/cachorro.jpeg");
+    background-image:url("../img/cachorro.jpeg");
+    
 }
 .card-2 .card-image{
-    background-image:url("/img/crocodile.jpeg");
+    background-image:url("../img/crocodile.jpeg");
 }
 .card-3 .card-image{
-    background-image:url("/img/gatinho.jpeg");
+    background-image:url("../img/gatinho.jpeg");
 }
 .card-4 .card-image{
-    background-image:url("/img/macaco.jpeg");
+    background-image:url("../img/macaco.jpeg");
 }
 .card-5 .card-image{
-    background-image:url("/img/palmeiras.jpeg");
+    background-image:url("../img/palmeiras.jpeg");
 }
 .card-6 .card-image{
-    background-image:url("/img/palmeiras2.jpeg");
+    background-image:url("../img/palmeiras2.jpeg");
 }
 .card-7 .card-image{
-    background-image:url("/img/panda.jpeg");
+    background-image:url("../img/panda.jpeg");
 }
 .card-8 .card-image{
-    background-image:url("/img/Sem\ título.jpeg");
+    background-image:url("../img/Sem\ título.jpeg");
 }
 
 .btn{
